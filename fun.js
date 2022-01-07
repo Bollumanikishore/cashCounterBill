@@ -1,6 +1,7 @@
 var bill = document.querySelector("#bill");
 var paid = document.querySelector("#paid");
 var button = document.querySelector("#button");
+var message = document.querySelector("#mesg");
 // var one = document.querySelector("#one");
 // var five = document.querySelector("#five");
 // var ten = document.querySelector("#ten");
@@ -15,12 +16,17 @@ function onclickHandler(){
     var billAmount = bill.value;
     var paidAmt = paid.value;
     sol = paidAmt - billAmount;
-    console.log(sol);
+    if(sol>0){
     finalSol(sol);
+    }
+    else{
+        console.log("Due!!");
+        message.innerHTML="Due from customer, Paid amount is incorrect!!";
+    }
+    
 }
     function finalSol(sol)
-    {
-        
+    {  
     for(var i=0;i<list1.length;i++)
     {
         const notes = Math.floor(sol/list1[i])
