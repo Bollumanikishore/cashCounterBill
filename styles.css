@@ -14,8 +14,9 @@
             padding :0.5rem 1rem 0.5rem 1rem;
             border-style: solid;
             border-radius: 0.5rem;
-            background-color: olive;
-            color: whitesmoke;
+            background-color: lightgray;
+            color: black;
+            font-weight: bold;
         }
         table,th,td{
             border: 1px solid black;
@@ -27,11 +28,13 @@
         }
         #Heading{
             text-align: center;
-            margin: 3rem 5rem 2rem 5rem;
-            background-color: olive;
+            margin: auto;
+            background-color: darkgray;
             border-radius:1rem;
-            padding:1rem;
-            color:whitesmoke;
+            padding:10px;
+            color:aqua;
+            width: 30%;
+            margin-top: 1rem;
         }
         div{
             text-align: center;
@@ -45,7 +48,7 @@
             color:olive;
         }
         #bill,#paid{
-            margin:1rem;
+            margin:1rem 1rem 0rem 1rem;
             height:2rem;
             border-radius: 1rem;
             text-align: center;
@@ -56,5 +59,11 @@
         #mesg{
             margin: 2rem;
             color:darkred;
+        }
+        #cashinnotes{
+            font-weight: bold;
+        }
+        #returnNotes{
+            font-weight: bold;
         }
 
