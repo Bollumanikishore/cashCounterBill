@@ -5,37 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script ></script>
-    <style>
-        /* #one,#two{
-            border: 1px solid black;
-            padding : 1rem;
-            margin-top: 1rem;
-            width: 3rem;
-            text-align: center;
-        }  */
-        #button{
-            margin-top: 1rem;
-        }
-        table,th,td{
-            border: 1px solid black;
-            border-collapse: collapse;
-            margin-top: 1rem;
-        }
-        td{
-            padding:1.2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Cash counter calclator</h2>
-    <h4>Bill:</h4>
-    <input id="bill">
-    <h4>Paid:</h4>
-    <input id="paid">
+    <div id="Heading"><h2 id="mainHeading">Cash counter calclator</h2></div>
+
+    <div id="billDiv">
+    <h4 id="billh4">Enter Bill</h4>
+    <input id="bill" placeholder="$">
+    </div>
+
+    <div id="paidDiv">
+    <h4>Paid</h4>
+    <input id="paid" placeholder="$">
     <br>
     <button id="button">Check</button>
-    <!-- <div id="one"></div><div id="two"></div> -->
+    </div>
+    
+    <div id="mesg"></div>
     <table>
         <!-- <tr>
             <th>Count</th>
@@ -48,7 +35,7 @@
             <td id="one"></td>
         </tr> -->
         <tr>
-            <th>Count</th>
+            <th>No.Of Notes</th>
             <td id="one"></td>
             <td id="one"></td>
             <td id="one"></td>
@@ -58,7 +45,7 @@
             <td id="one"></td>
         </tr>
         <tr>
-            <th>Change Types</th>
+            <th>Cash In Notes</th>
             <td>2000</td>
             <td>500</td>
             <td>100</td>
