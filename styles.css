@@ -10,7 +10,7 @@
         }
         button{
             cursor: pointer;
-            margin-top: 1rem;
+            margin-top: 1.5rem;
             padding :0.5rem 1rem 0.5rem 1rem;
             border-style: solid;
             border-radius: 0.5rem;
@@ -33,22 +33,25 @@
             border-radius:1rem;
             padding:10px;
             color:aqua;
-            width: 30%;
+            width: 25%;
             margin-top: 1rem;
+            margin-bottom: 2rem;
         }
         div{
             text-align: center;
         }
         #billDiv{
             margin-top: 1rem;
+            margin-bottom: 2rem;
             color: olive;
         }
         #paidDiv{
             margin-top: 1rem;
+            /* margin-bottom: 1.5rem; */
             color:olive;
         }
         #bill,#paid{
-            margin:1rem 1rem 0rem 1rem;
+            margin:0.2rem 1rem 0rem 1rem;
             height:2rem;
             border-radius: 1rem;
             text-align: center;
